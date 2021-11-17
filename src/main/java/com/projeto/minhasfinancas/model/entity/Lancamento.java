@@ -21,8 +21,6 @@ import com.projeto.minhasfinancas.model.enums.StatusLancamento;
 import com.projeto.minhasfinancas.model.enums.TipoLancamento;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 @Entity
 @Table(name = "lancamento", schema = "financas")

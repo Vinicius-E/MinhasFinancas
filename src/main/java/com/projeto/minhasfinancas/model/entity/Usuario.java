@@ -1,7 +1,5 @@
 package com.projeto.minhasfinancas.model.entity;
 
-import java.util.Objects;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

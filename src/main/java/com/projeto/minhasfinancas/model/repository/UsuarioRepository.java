@@ -6,4 +6,6 @@ import com.projeto.minhasfinancas.model.entity.Usuario;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
 
+	//Optional<Usuario> findByEmail(String email);
+	Boolean existsByEmail(String email);
 }
